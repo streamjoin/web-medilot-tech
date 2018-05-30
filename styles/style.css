@@ -67,6 +67,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
+
 /*----------------------
    2 ) Preloader Styles
   ----------------------*/
@@ -158,6 +159,7 @@
     transform: scale(1);
   }
 }
+
 
 
 
@@ -265,6 +267,7 @@ h3 {
 body {
   overflow-x: hidden;
 }
+
 
 
 
@@ -459,6 +462,7 @@ body {
 
 
 
+
 /*---------------------
    4 ) Homepage Styles
   ---------------------*/
@@ -475,6 +479,7 @@ body {
   left: 0;
   z-index: 2000;
 }
+
 
 
 
@@ -585,11 +590,13 @@ body {
 
 
 
+
 /*Bootstrap tooltips Customized*/
 
 .social-media a:hover {
   color: #00B796;
 }
+
 
 
 
@@ -677,6 +684,7 @@ body {
 
 
 
+
 /*------------------
    5 ) Close Button
   ------------------*/
@@ -692,6 +700,7 @@ body {
   top: 30px;
   background-size: cover;
 }
+
 
 
 
@@ -757,6 +766,7 @@ body {
 
 
 
+
 /*------------------
    7 ) Profile Page
   ------------------*/
@@ -806,6 +816,7 @@ body {
   margin-bottom: 50px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  height: 91%;
 }
 
 .team-member-box h4 {
@@ -851,6 +862,7 @@ body {
 
 
 
+
 /* First, define the common wrapper elements
    Padding-top is for the fixed height header of the embedded content */
 
@@ -861,6 +873,7 @@ body {
   /*overflow: hidden;*/
   padding-bottom: 56.25%;
 }
+
 
 
 
@@ -877,6 +890,7 @@ body {
 }
 
 
+
 /*--------------------
    8 ) Service Page
 --------------------*/
@@ -886,6 +900,7 @@ body {
   background-size: cover;
   background-position: bottom;
 }
+
 
 
 
@@ -1001,6 +1016,7 @@ body {
 
 
 
+
 /*=================================== pricing ======================================*/
 
 .price-box {
@@ -1011,6 +1027,7 @@ body {
   text-align: center;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  height: 90%;
 }
 
 .price-box p {
@@ -1074,6 +1091,7 @@ body {
 
 
 
+
 /*---------------------------- 4.4 sponsor  -----------------------------*/
 
 .sponsor {
@@ -1094,6 +1112,7 @@ body {
   margin-top: 15px;
   margin-bottom: 40px;
 }
+
 
 
 /*--------------------
@@ -1142,6 +1161,7 @@ body {
 .projet-items {
   padding: 20px;
 }
+
 
 
 
@@ -1213,6 +1233,7 @@ body {
 }
 
 
+
 /*----- Hover Effect Portfolio Image [ END ] --------*/
 
 .popup-content {
@@ -1244,6 +1265,7 @@ body {
 }
 
 
+
 /*----- Popup Sty;es [ END ] --------*/
 
 
@@ -1265,6 +1287,7 @@ body {
   top: 0;
   left: 0;
 }
+
 
 
 /*-------------------
@@ -1351,6 +1374,7 @@ body {
 
 
 
+
 /*-------------------
    12 ) Contact Page
 --------------------*/
@@ -1387,6 +1411,7 @@ body {
 .contact-info .data:first-child span {
   padding-top: 7px;
 }
+
 
 
 
@@ -1469,6 +1494,7 @@ button#cfsubmit:hover {
 
 
 
+
 /*-------------
    13 ) Footer
   -------------*/
@@ -1529,6 +1555,7 @@ button#cfsubmit:hover {
 .footer a:hover {
   color: #f4f4f4;
 }
+
 
 
 
