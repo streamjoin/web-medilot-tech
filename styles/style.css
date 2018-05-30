@@ -792,6 +792,10 @@ body {
   margin-bottom: 20px;
 }
 
+.facts-eq-height {
+  height: 95.5%;
+}
+
 .facts-overlay {
   padding: 40px;
   background-color: rgb(35, 46, 52);
@@ -802,12 +806,17 @@ body {
   margin-bottom: 20px;
 }
 
+.facts h3 {
+  color: #fff;
+  font-size: 48px;
+}
+
 .facts p {
   color: #fff;
 }
 
 .facts p.count {
-  font-size: 29px;
+  font-size: 48px;
 }
 
 .team-member-box {
@@ -816,6 +825,9 @@ body {
   margin-bottom: 50px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.team-member-box-eq-height {
   height: 91%;
 }
 
@@ -1027,7 +1039,10 @@ body {
   text-align: center;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  height: 90%;
+}
+
+.price-box-eq-height {
+  height: 89%;
 }
 
 .price-box p {
@@ -1688,4 +1703,9 @@ button#cfsubmit:hover {
 .row-flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
 }
