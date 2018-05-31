@@ -690,7 +690,7 @@ body {
   ------------------*/
 
 .close-btn {
-  background: url(../img/close.png);
+  background: url(../img/template/close.png);
   z-index: 1000;
   cursor: pointer;
   width: 40px;
@@ -775,7 +775,7 @@ body {
 /* ( a ) Story of Glory */
 
 .profile-page .image-container {
-  background: url(../img/about_us_featured.png);
+  background: url(../img/template/about_us_featured.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -908,7 +908,7 @@ body {
 --------------------*/
 
 .service-page .image-container {
-  background: url(../img/service_featured.png);
+  background: url(../img/template/service_featured.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -1138,7 +1138,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-  background: url(../img/portfolio_featured.png);
+  background: url(../img/template/portfolio_featured.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -1289,7 +1289,7 @@ body {
 --------------------*/
 
 .gallery-page .image-container {
-  background: url(../img/gallery_featured.jpg);
+  background: url(../img/template/gallery_featured.jpg);
   background-size: cover;
   background-position: bottom;
 }
@@ -1310,7 +1310,7 @@ body {
 --------------------*/
 
 .faq-page .image-container {
-  background: url(../img/faq_featured.jpg);
+  background: url(../img/template/faq_featured.jpg);
   background-size: cover;
   background-position: bottom;
 }
@@ -1471,7 +1471,7 @@ body {
 }
 
 .contact-page .image-container {
-  background: url(../img/contact_featured.png);
+  background: url(../img/template/contact_featured.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -1666,7 +1666,7 @@ button#cfsubmit:hover {
   }
 
   .close-btn {
-    background: url(../img/close_sm.png);
+    background: url(../img/template/close_sm.png);
     top: 5px;
   }
 
