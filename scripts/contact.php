@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'lqmike@163.com';  // target email address
+	$to = 'admin@medilot-tech.com';  // target email address
 	
 	$errors = array();
 	// print_r($_POST);
@@ -46,9 +46,9 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$subject = 'Contact Form : Boots4 - First Ever Responsive HTML5 Template With Bootstrap 4';
+	$subject = '[CONTACT] customer message submitted via medilot-tech.com';
 	
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$body = "[FROM]: $name\n[EMAIL] $email\n\n$message";
 
 	$headers = "From: ".$from;
 
@@ -58,7 +58,7 @@
 	if (mail ($to, $subject, $body, $headers)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
+		$result .= 'Thank You! We will respond to your message ASAP.';
 		$result .= '</div>';
 
 		echo $result;
