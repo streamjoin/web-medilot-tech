@@ -1332,7 +1332,7 @@ body {
 }
 
 .panel-group .panel.panel-default .panel-heading .panel-title {
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 0px;
 }
 
@@ -1348,16 +1348,15 @@ body {
 
 .panel-group .panel.panel-default .panel-heading .panel-title a:after {
   position: absolute;
-  content: "\f489";
+  content: "\f462";
   top: 35%;
   right: 15px;
-  font-size: 15px;
   font-family: "Ionicons";
   font-weight: bold;
 }
 
 .panel-group .panel.panel-default .panel-heading .panel-title a.collapsed:after {
-  content: "\f462";
+  content: "\f489";
   font-family: "Ionicons";
 }
 
